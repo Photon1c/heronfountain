@@ -13,7 +13,7 @@ export default {
     assetsDir: 'assets',
     rollupOptions: {
       input: {
-        heronfountain: resolve(__dirname, 'heronfountain.html'),
+        heronfountain: resolve(__dirname, 'index.html'),
       },
       output: {
         // Ensure consistent naming for debugging and AI access
@@ -35,5 +35,6 @@ export default {
     }
   }
 };
+
 
 
